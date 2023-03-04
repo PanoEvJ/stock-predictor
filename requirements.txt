@@ -1,0 +1,7 @@
+matplotlib
+pandas
+plotly
+yfinance
+prophet
+joblib
+pystan
