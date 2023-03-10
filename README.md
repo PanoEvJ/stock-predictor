@@ -3,6 +3,10 @@
      height="auto"/>
 </p>
 
+# Curl
+
+curl --header "Content-Type: application/json" --request POST --data '{"ticker":"MSFT", "days":7}' http://35.87.98.236:8000/predict
+
 # Stock Prophet 
 
 Today, we will be **deploying** a stock prediction model as a RESTful API using [FastAPI](https://fastapi.tiangolo.com/) to AWS EC2, and make it available (i.e., public) to end users. Less focus is put on how well the model performs, yet the goal is to get an initial working system quickly into production:
