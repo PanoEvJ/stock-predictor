@@ -9,7 +9,15 @@ curl --header "Content-Type: application/json" --request POST --data '{"ticker":
 
 # FastAPI
 
+## Link
+
 http://35.87.98.236:8000/docs#/default/get_prediction_predict_post
+
+## Screenshot
+
+<p align="center">
+<img src="src/img/FastAPI_docs_visible_IP.png" alt="drawing" width="400"/>
+</p>
 
 # Stock Prophet 
 
