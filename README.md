@@ -16,7 +16,7 @@ http://35.87.98.236:8000/docs#/default/get_prediction_predict_post
 ## Screenshot
 
 <p align="center">
-<img src="src/img/FastAPI_docs_visible_IP.png" alt="drawing" width="400"/>
+<img src="src/img/FastAPI_docs_visible_IP.png" alt="drawing" width="800"/>
 </p>
 
 # Stock Prophet 
