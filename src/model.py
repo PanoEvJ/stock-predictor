@@ -1,8 +1,4 @@
 import datetime
-import pandas as pd
-import yfinance as yf
-from prophet import Prophet
-
 from pathlib import Path
 
 import joblib
@@ -60,12 +56,12 @@ def convert(prediction_list):
 
 
 # if __name__ == "__main__":
-    # parser = argparse.ArgumentParser(description='Predict')
-    # parser.add_argument('--ticker', type=str, default='MSFT', help='Stock Ticker')
-    # parser.add_argument('--days', type=int, default=7, help='Number of days to predict')
-    # args = parser.parse_args()
+#     parser = argparse.ArgumentParser(description='Predict')
+#     parser.add_argument('--ticker', type=str, default='MSFT', help='Stock Ticker')
+#     parser.add_argument('--days', type=int, default=7, help='Number of days to predict')
+#     args = parser.parse_args()
     
-    # train(args.ticker)
-    # prediction_list = predict(ticker=args.ticker, days=args.days)
-    # output = convert(prediction_list)
-    # print(output)
+#     train(args.ticker)
+#     prediction_list = predict(ticker=args.ticker, days=args.days)
+#     output = convert(prediction_list)
+#     print(output)
