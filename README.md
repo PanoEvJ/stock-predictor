@@ -16,10 +16,6 @@ The model can be executed using FastAPI with two arguments, a valid stock ticker
 <img src="src/MSFT_plot_components.png" alt="drawing" width="240"/>
 </p>
 
-# Curl
-
-curl --header "Content-Type: application/json" --request POST --data '{"ticker":"MSFT", "days":7}' http://35.87.98.236:8000/predict
-
 # FastAPI
 
 ## Link
@@ -31,3 +27,7 @@ http://35.87.98.236:8000/docs#/default/get_prediction_predict_post
 <p align="center">
 <img src="src/img/FastAPI_docs_visible_IP.png" alt="drawing" width="800"/>
 </p>
+
+# Curl
+
+curl --header "Content-Type: application/json" --request POST --data '{"ticker":"MSFT", "days":7}' http://35.87.98.236:8000/predict
