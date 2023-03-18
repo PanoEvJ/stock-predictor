@@ -12,21 +12,36 @@ THe model is trained on historical stock data with yfinance, creates a new Proph
 The model can be executed using FastAPI with two arguments, a valid stock ticker and the number of days to predict. The ticker values are, for example, 'GOOG', 'AAPL', 'MSFT'. 
 
 <p align="center">
-<img src="src/MSFT_plot.png" alt="drawing" width="400"/>
-<img src="src/MSFT_plot_components.png" alt="drawing" width="240"/>
+<img src="plots/MSFT_plot.png" alt="drawing" width="400"/>
+<img src="plots/MSFT_plot_components.png" alt="drawing" width="240"/>
 </p>
 
 # FastAPI
 
+## Docker
+
+
+### docker run on shell command
+
+<p align="center">
+<img src="img/docker_run_successful.png" alt="drawing" width="800"/>
+</p>
+
+### docker running on fastapi screenshot
+
+<p align="center">
+<img src="img/FastAPI_stockPredictor_docker.png" alt="drawing" width="800"/>
+</p>
+
+## Screenshot (localhost)
+
+<p align="center">
+<img src="img/FastAPI_docs_visible_IP.png" alt="drawing" width="800"/>
+</p>
+
 ## Link
 
 http://35.87.98.236:8000/docs#/default/get_prediction_predict_post
-
-## Screenshot
-
-<p align="center">
-<img src="src/img/FastAPI_docs_visible_IP.png" alt="drawing" width="800"/>
-</p>
 
 # Curl
 

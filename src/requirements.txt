@@ -5,3 +5,6 @@ yfinance
 prophet
 joblib
 pystan
+argparse
+uvicorn
+fastapi
